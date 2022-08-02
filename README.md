@@ -6,7 +6,7 @@ Submitted by: **Saida Ibragimova**
 
 **Kuzya Greeting App** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
 
-Time spent: **8** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -18,16 +18,16 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [X]Edit the margins of the image to improve its visibility
-* [X]Change the font of the introductory message and increase its weight
-* [X]Change the primary color scheme of the app from purple to teal
-* [X]Set the duration for the display of toast to LENGTH_LONG
+* [X] Edit the margins of the image for its optimal visibility
+* [X] Change the font of the introductory message and increase its weight
+* [X] Change the primary color scheme of the app from purple to teal
+* [X] Set the setting for the display of Toast to LENGTH_LONG
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [LiceCap](http://www.cockos.com/licecap/).  
@@ -38,11 +38,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+* I had trouble with using the setOnClickListener: the Android Studio kept throwing an error, despite the fact that my code was identical to the tutorial. Browsing through the StackOverflow and Kotlin Documentation was helpful at resolving the issue. View.onClickListener{} was necessary before the Log.v() command.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Saida Ibragimova]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

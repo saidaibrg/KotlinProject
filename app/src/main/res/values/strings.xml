@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="kuzya_greeting">Hi! I\'m Kuzya, and I\'m sending hugs to all Android developers out there!</string>
+</resources>
